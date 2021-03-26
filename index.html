@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch App</title>
+</head>
+
+<body>
+    <h1>Stop<span>watch</span> App</h1>
+    <div class="main-div">
+        <div class="stop-watch">
+            <div class="stop-watch-div">
+                <span class="stop-watch-text"><span class="minutes">00</span>:<span class="seconds">00</span>.<span
+                    class="miliseconds">00</span></span></span>
+            </div>
+            <div class="button-div buttons-stop">
+                <a href="#" class="button-item optinal"><img id="repeat" src="./img/repeat.svg" alt=""></a>
+                <a href="#" class="button-item"><i id="play" class="fas fa-play-circle fa-7x"></i></a>
+
+            </div>
+            <div class="button-div buttons-start" style="display: none;">
+                <a href="#" class="button-item optinal"><img id="flag" src="./img/flag.svg" alt=""></a>
+                <a href="#" class="button-item"><i id="pause" class="fas fa-pause-circle fa-7x"></i></a>
+            </div>
+        </div>
+        <div class="stop-watch-list">
+            <ul class="list-item-main">
+                <!-- <li class="list-item">
+                    <div class="flag-box">
+                        <i style="color: #00FF75;" class="fas fa-flag fa-3x"></i>
+                        <span class="flag-text">01</span>
+                    </div>
+                    <div class="now-time-box">
+                        <span class="now-time-text">+ 00:01.50</span>
+                    </div>
+                    <div class="total-time-box">
+                        <span class="total-time-text">12:23:21</span>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
